@@ -181,12 +181,19 @@ h2 {
 }
 
 .footer {
+  background-color: #1A1A23;
   flex-grow: 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-strart;
   align-items: flex-end;
+}
 
+.footer-inner-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .footer p {
